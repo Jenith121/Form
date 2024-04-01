@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  height: 100vh;
+  background: linear-gradient(100deg, rgb(70, 248, 248), rgb(227, 85, 227));
+}
+h2 {
+  text-align: center;
+}
+#n1 {
+  border: 2px solid none;
+  height: 350px;
+  width: 300px;
+  justify-content: space-evenly;
+  display: flex;
+  background-color: white;
+}
+label {
+  font-size: 15px;
+}
+input.n1 {
+  height: 28px;
+  width: 250px;
+  justify-content: space-between;
+}
+.n2 {
+  font-size: 17px;
+  gap: 30px;
+}
+button {
+  width: 280px;
+  height: 30px;
+  background-color: skyblue;
+}
+button:hover {
+  background-color: cyan;
+  cursor: pointer;
+  border-radius: 2px;
+}
